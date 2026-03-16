@@ -1,4 +1,4 @@
-# VidRAG 🎬🤖
+# VidRAG 
 
 **Retrieval-Augmented Generation system for asking questions about YouTube videos.**
 
@@ -17,13 +17,13 @@ The system extracts transcripts from YouTube videos, converts them into vector e
 
 ## ✨ Features
 
-- 🎥 **YouTube Transcript Extraction**: Automatically extracts video transcripts
-- 🧠 **AI-Powered Q&A**: Uses GPT-4o-mini for intelligent question answering
-- 🔍 **Vector Search**: FAISS-based similarity search for relevant content
-- 📝 **Smart Chunking**: Recursive text splitting with overlap for better context
-- ⚡ **Fast Retrieval**: Optimized top-4 retrieval (k=4) for reduced hallucinations
-- 🔗 **LangChain Integration**: Built with LangChain for modularity and extensibility
-- 💬 **Interactive Interface**: Command-line interface for easy interaction
+-  **YouTube Transcript Extraction**: Automatically extracts video transcripts
+-  **AI-Powered Q&A**: Uses GPT-4o-mini for intelligent question answering
+-  **Vector Search**: FAISS-based similarity search for relevant content
+-  **Smart Chunking**: Recursive text splitting with overlap for better context
+-  **Fast Retrieval**: Optimized top-4 retrieval (k=4) for reduced hallucinations
+-  **LangChain Integration**: Built with LangChain for modularity and extensibility
+-  **Interactive Interface**: Command-line interface for easy interaction
 
 ## 🛠️ Tech Stack
 
@@ -72,7 +72,7 @@ The system extracts transcripts from YouTube videos, converts them into vector e
    python vidrag.py
    ```
 
-## 📖 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -109,7 +109,7 @@ The application will prompt you to:
 - "What are the technical details mentioned?"
 - "Who are the speakers and what are their roles?"
 
-## 🏗️ Architecture
+##  Architecture
 
 ### RAG Pipeline
 
@@ -147,7 +147,7 @@ Similarity Retrieval
 ↓  
 GPT Response Generation
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -189,7 +189,7 @@ VidRaG/
 └── README.md            # This file
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
