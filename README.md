@@ -1,4 +1,4 @@
-# VidRAG 
+# youtube-video-RAG
 
 **Retrieval-Augmented Generation system for asking questions about YouTube videos.**
 
@@ -196,5 +196,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [FAISS](https://github.com/facebookresearch/faiss) for vector search
 - [youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api) for transcript extraction
 
-Maintained by Aarushi Sinha
+Maintained by **Aarushi Sinha**
 
