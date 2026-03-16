@@ -1,4 +1,4 @@
-# youtube-video-RAG
+# VidRAG
 
 **Retrieval-Augmented Generation system for asking questions about YouTube videos.**
 
