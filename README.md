@@ -46,7 +46,7 @@ The system extracts transcripts from YouTube videos, converts them into vector e
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sinhaaarushi/VidRaG.git
+   git clone https://github.com/sinhaaarushi/youtube-video-rag.git
    cd VidRaG
    ```
 
