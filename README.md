@@ -2,7 +2,7 @@
 
 **Retrieval-Augmented Generation system for asking questions about YouTube videos.**
 
-A Python application that uses Retrieval-Augmented Generation (RAG) to answer questions about YouTube videos.
+A Python application that applies Retrieval-Augmented Generation (RAG) to answer questions about YouTube videos.
 
 ## Project Motivation
 
@@ -15,10 +15,10 @@ The system extracts transcripts from YouTube videos, converts them into vector e
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-orange.svg)](https://openai.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## ✨ Features
+##  Features
 
 -  **YouTube Transcript Extraction**: Automatically extracts video transcripts
--  **Question answering using GPT models**: Uses GPT-4o-mini for intelligent question answering
+-  **Question answering using GPT models**: Generates contextual answers from retrieved transcript segments
 -  **Vector Search**: FAISS-based similarity search for relevant content
 -  **Smart Chunking**: Recursive text splitting with overlap for better context
 -  **Fast Retrieval**: Optimized top-4 retrieval (k=4) for reduced hallucinations
@@ -29,7 +29,7 @@ The system extracts transcripts from YouTube videos, converts them into vector e
 
 - **Python 3.8+**
 - **LangChain** - RAG framework and chain orchestration
-- **OpenAI** - GPT-4o-mini for chat and text-embedding-3-small for embeddings
+- **OpenAI** – language models for question answering and embeddings
 - **FAISS** - Vector similarity search and storage
 - **youtube-transcript-api** - YouTube transcript extraction
 - **tiktoken** - Text tokenization
@@ -108,18 +108,6 @@ The application will prompt you to:
 - "Can you summarize the key points?"
 - "What are the technical details mentioned?"
 - "Who are the speakers and what are their roles?"
-
-##  Architecture
-
-### RAG Pipeline
-
-1. **Document Ingestion**: Extract transcript from YouTube video
-2. **Text Splitting**: Split transcript into 1000-character chunks with 200-character overlap
-3. **Embedding Generation**: Create vector embeddings using OpenAI's text-embedding-3-small
-4. **Vector Storage**: Store embeddings in FAISS vector database
-5. **Retrieval**: Find top-4 most relevant chunks for each question
-6. **Augmentation**: Combine retrieved context with user question
-7. **Generation**: Generate answer using GPT-4o-mini
 
 ### Key Components
 
